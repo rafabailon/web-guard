@@ -1,0 +1,10 @@
+"""Allow running Web Guard with python -m web_guard."""
+
+from __future__ import annotations
+
+import sys
+
+from .cli import main
+
+if __name__ == "__main__":
+    sys.exit(main())
